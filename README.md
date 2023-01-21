@@ -1,1 +1,8 @@
-# leasedatabase
+Business problems:
+
+The managerial system for apartment management allows them to manage lease, tenants, lease payments, and services while allowing the tenants to process payments and requests for extra amenities and services. 
+The complex will have multiple apartments, organized by block, floor, and number. Each apartment might have several rooms and can be rented out to different people under different leases. Each realized smallest unit (room or apartment) can have multiple leases that could be signed by multiple tenants. The manager needs to record all tenants within the unit, but one lease will only record a primary payor and other tenants as dependencies. The lease terms of the same apartment are independent, and can be signed ahead of time without assigning tenants to any units.
+The lease might come with attached or paid parking ability, the number of parking spots per lease and the designated slots varies case by case. 
+The lease might include utilities ranging from electricity, water, sewage, and garbage, … and capacity for optional amenities like cables, and extra paid channels for cable, … and other requested extra types of amenities.
+The apartment complex will send monthly bills to each lease, including lease rent, and all optional amenities requested by that lease. 
+The payor of the lease will then access the payment portal and use the lease reference code to sign in. The payment method is electronic bank transfer, with options of e-check from debit, or credit card. The payor can save payment options and card information for quick payment and may set up auto payments.
